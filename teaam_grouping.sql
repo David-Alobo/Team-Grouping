@@ -10,8 +10,8 @@ GROUP BY CITY, EMP_NAME
 )
 SELECT 
 	CITY, 
-    EMP_NAME, 
-    Team_Group 
+    	EMP_NAME, 
+    	Team_Group 
 FROM 
 	CTE
 ORDER BY CITY ASC
