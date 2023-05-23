@@ -60,7 +60,7 @@ Write a query to return a list of items,
 | New York |	Chris, John	| Team3 |
 | San Francisco	| Rachel, Steve	| Team4 |
 
-Explanation:
+### Explanation:
 
 It will group the employees based on cities and restrict the number of employees as per row to 3 at max, also team names are to be given for each row.
 
