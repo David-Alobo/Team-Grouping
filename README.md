@@ -28,11 +28,12 @@ Write a query to return a list of items,
 
 - Only show the first 20 rows.
 
-Schema
+### Schema
 
-Name 	Type	Description
-EMP_NAME	Varchar	Employee Name
-CITY	Varchar	Name of the City
+|Name| 	|Type|	|Description|
+|----|  |----|  |-----------|
+|EMP_NAME|	|Varchar|	|Employee Name|
+|CITY|	|Varchar|	|Name of the City|
 
 
 Sample Data Tables
@@ -49,7 +50,7 @@ Steve	San Francisco
 Rachel	San Francisco
 Robert	Los Angeles
 
-Output:
+### Output:
 
 CITY	EMP_NAME	Team
 Los Angeles	Robert	Team1
