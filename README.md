@@ -30,33 +30,35 @@ Write a query to return a list of items,
 
 ### Schema
 
-|Name| 	|Type|	|Description|
-|----|  |----|  |-----------|
-|EMP_NAME|	|Varchar|	|Employee Name|
-|CITY|	|Varchar|	|Name of the City|
+| Name | Type | Description |
+|---|---|---|
+| EMP_NAME | Varchar | Employee Name |
+| CITY | Varchar | Name of the City |
 
 
-Sample Data Tables
+### Sample Data Tables
 
-emp_details
+### emp_details
 
-EMP_NAME	CITY
-Sam	New York
-David	New York
-Peter	New York
-Chris	New York
-John	New York
-Steve	San Francisco
-Rachel	San Francisco
-Robert	Los Angeles
+|EMP_NAME|	CITY |
+|---|---|
+| Sam |	New York |
+| David	| New York |
+| Peter	| New York |
+| Chris	| New York |
+| John	| New York |
+| Steve	| San Francisco |
+| Rachel |	San Francisco |
+| Robert	| Los Angeles |
 
 ### Output:
 
-CITY	EMP_NAME	Team
-Los Angeles	Robert	Team1
-New York	David, Peter, Sam	Team2
-New York	Chris, John	Team3
-San Francisco	Rachel, Steve	Team4
+| CITY | EMP_NAME	| Team |
+|---|---|---|
+| Los Angeles	| Robert | Team1 |
+| New York	| David, Peter, Sam	| Team2 |
+| New York |	Chris, John	| Team3 |
+| San Francisco	| Rachel, Steve	| Team4 |
 
 Explanation:
 
